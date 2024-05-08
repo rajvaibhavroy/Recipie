@@ -8,7 +8,7 @@ import Footer from './pages/Footer';
 import Content from './pages/Content';
 import Reachus from './pages/Reachus';
 import Signup from './pages/Signup';
-import RecipieView from './pages/RecipieView';
+import RecipieView from './pages/RecipieView'
 
 
 function App() {
