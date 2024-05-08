@@ -1,0 +1,6 @@
+https://api.edamam.com/search?q='burger'&app_id=6630bf6&app_key=3e2f4804694e7f0283c3ce210e9b4f22
+
+3e2f4804694e7f0283c3ce210e9b4f22	—
+
+
+46630bf6
