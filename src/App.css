@@ -57,6 +57,8 @@ position: relative;
     background-size: cover;
     background-position: center;
     display: flex;
+    position: absolute;
+    top: 0;
 
     justify-content: center;
      align-items: center;

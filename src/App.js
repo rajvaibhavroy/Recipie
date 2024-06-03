@@ -9,6 +9,8 @@ import Content from './pages/Content';
 import Reachus from './pages/Reachus';
 import Signup from './pages/Signup';
 import RecipieView from './pages/RecipieView'
+import ShowRecipe from './pages/ShowRecipe';
+import One from './pages/One';
 
 
 function App() {
@@ -21,12 +23,15 @@ function App() {
       <Routes>
         
         <Route path='/' element={<Home/>}/>
-        <Route path='about' element={<About/>}/>
-        <Route path='footer' element={<Footer/>}/>
-        <Route path='content' element={<Content/>}/>
-        <Route path='reachus' element={<Reachus/>}/>
-        <Route path='signup' element={<Signup/>}/>
-        <Route path='recipieview' element={<RecipieView/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/footer' element={<Footer/>}/>
+        <Route path='/content' element={<Content/>}/>
+        <Route path='/reachus' element={<Reachus/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+        <Route path='/recipieview' element={<RecipieView/>}/>
+        <Route path='/showrecipe' element={<ShowRecipe/>}/>
+        <Route path='/one' element={<One/>}/>
+        
 
       </Routes>
       </BrowserRouter>
